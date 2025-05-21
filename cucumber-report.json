@@ -4,161 +4,6 @@
     "elements": [
       {
         "description": "",
-        "id": "search-menu-actions;the-cms-company-search-page-supports-searching-for-users-details.",
-        "keyword": "Scenario",
-        "line": 18,
-        "name": "The CMS Company Search page supports searching for Users details.",
-        "steps": [
-          {
-            "keyword": "Before",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 317078999
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 20,
-            "name": "I am logged into the CMS application using \"adminUser\" username and \"adminPassword\" password",
-            "match": {
-              "location": "tests\\steps\\common.step.ts:18"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 3416801099
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 21,
-            "name": "I click the \"DataManagementMenu\" on the \"homePage\" Page",
-            "match": {
-              "location": "tests\\steps\\search.step.ts:37"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 11466013398
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 22,
-            "name": "I click the \"CompanyManagementMenu\" on the \"homePage\" Page",
-            "match": {
-              "location": "tests\\steps\\search.step.ts:37"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 43879599
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 23,
-            "name": "I click the \"UsersMenu\" on the \"homePage\" Page",
-            "match": {
-              "location": "tests\\steps\\search.step.ts:37"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 59096099
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 24,
-            "name": "I verify that the \"Users\" page is displayed under \"companyManagementPage\"",
-            "match": {
-              "location": "tests\\steps\\search.step.ts:51"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 920991199
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 25,
-            "name": "I Verify search link is available",
-            "match": {
-              "location": "tests\\steps\\search.step.ts:20"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 23356898
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 26,
-            "name": "I navigate to search page",
-            "match": {
-              "location": "tests\\steps\\search.step.ts:26"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 74485199
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 27,
-            "name": "I Verify \"Search Users\" page is available",
-            "match": {
-              "location": "tests\\steps\\search.step.ts:31"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1452325798
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 28,
-            "name": "I log out from the CMS application",
-            "match": {
-              "location": "tests\\steps\\common.step.ts:25"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 106208598
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "result": {
-              "status": "passed",
-              "duration": 56885800
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      }
-    ],
-    "id": "search-menu-actions",
-    "line": 1,
-    "keyword": "Feature",
-    "name": "Search Menu Actions",
-    "tags": [],
-    "uri": "tests\\features\\cms\\search.feature"
-  },
-  {
-    "description": "",
-    "elements": [
-      {
-        "description": "",
         "id": "search-page-actions;the-cms-company-search-page-supports-searching-for-users-details.",
         "keyword": "Scenario",
         "line": 3,
@@ -169,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 223387399
+              "duration": 337878399
             }
           },
           {
@@ -182,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 6273293398
+              "duration": 5138219399
             }
           },
           {
@@ -195,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3628273399
+              "duration": 6327024798
             }
           },
           {
@@ -208,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 35446000
+              "duration": 117659398
             }
           },
           {
@@ -221,7 +66,20 @@
             },
             "result": {
               "status": "passed",
-              "duration": 58467199
+              "duration": 128353600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I export the file to \"unitManagement\" in Excel",
+            "match": {
+              "location": "tests\\steps\\common.step.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1939048298
             }
           },
           {
@@ -229,11 +87,16 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 44492799
+              "duration": 71283999
             }
           }
         ],
-        "tags": [],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 2
+          }
+        ],
         "type": "scenario"
       }
     ],

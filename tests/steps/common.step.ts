@@ -36,3 +36,7 @@ Then('I wait for page to load', { timeout: 30000 }, async function () {
     await commonPage.removeAppliedFilter();
     // await browser.close();
   });
+When('I export the file to {string} in Excel', { timeout: 20000 },async function (folderName: string) {
+  commonPage = new CommonPage(this.page);
+  await commonPage.exportToExcel(folderName);
+});

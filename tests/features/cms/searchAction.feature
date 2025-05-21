@@ -1,11 +1,12 @@
 Feature: Search page Actions
-
+@smoke
 Scenario: The CMS Company Search page supports searching for Users details.
   
     Given I am logged into the CMS application using "adminUser" username and "adminPassword" password
     When I click the "DataManagementMenu" on the "homePage" Page
     And I click the "CompanyManagementMenu" on the "homePage" Page
     And I click the "UsersMenu" on the "homePage" Page
+    And I export the file to "unitManagement" in Excel
     # Then I verify that the "Users" page is displayed under "companyManagementPage"
     # And I remove the applied filter in screen
     # Then I Verify search link is available 
