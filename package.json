@@ -5,7 +5,7 @@
   "scripts": {
     "cucumber": "cucumber-js -c cucumber.json --format progress",
     "test:search": "cucumber-js tests/features/support/search.feature --require-module ts-node/register --require tests/support/world.ts --require tests/features/support/hook.ts --require tests/steps/*.ts --format progress",
-    "cucumber:parallel": "cucumber-js --parallel 3",
+    "cucumber:parallel": "cucumber-js --parallel %PARALLEL% --format progress",
     "generate:categories": "ts-node utils/generate-categories.ts",
     "merge:history": "ts-node utils/merge-history.ts",
     "allure:prepare": "npm run generate:categories && npm run merge:history",
