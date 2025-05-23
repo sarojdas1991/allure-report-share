@@ -6,7 +6,7 @@
     "cucumber": "cucumber-js -c cucumber.json --format progress",
     "test:search": "cucumber-js tests/features/support/search.feature --require-module ts-node/register --require tests/support/world.ts --require tests/features/support/hook.ts --require tests/steps/*.ts --format progress",
     "cucumber:parallel": "cucumber-js --parallel %PARALLEL% --format progress",
-    "cucumber:tags": "cucumber-js --tags %TAGS% --format progress",
+    "cucumber:tags" : "cucumber-js --tags @smoke --format progress",
     "generate:categories": "ts-node utils/generate-categories.ts",
     "merge:history": "ts-node utils/merge-history.ts",
     "allure:prepare": "npm run generate:categories && npm run merge:history",
