@@ -1,1 +1,205 @@
-[]
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "search-menu-actions;the-cms-company-search-page-supports-searching-for-users-details.",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "The CMS Company Search page supports searching for Users details.",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1269368400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 20,
+            "name": "I am logged into the CMS application using \"adminUser\" username and \"adminPassword\" password",
+            "match": {
+              "location": "tests\\steps\\common.step.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5483809300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "I click the \"DataManagementMenu\" on the \"homePage\" Page",
+            "match": {
+              "location": "tests\\steps\\search.step.ts:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8846331899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "I click the \"CompanyManagementMenu\" on the \"homePage\" Page",
+            "match": {
+              "location": "tests\\steps\\search.step.ts:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 167531899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "I click the \"UsersMenu\" on the \"homePage\" Page",
+            "match": {
+              "location": "tests\\steps\\search.step.ts:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 108760599
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 39491500
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 17
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "search-menu-actions",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Search Menu Actions",
+    "tags": [],
+    "uri": "tests\\features\\cms\\search.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "search-page-actions;the-cms-company-search-page-supports-searching-for-users-details.",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "The CMS Company Search page supports searching for Users details.",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1669144599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am logged into the CMS application using \"adminUser\" username and \"adminPassword\" password",
+            "match": {
+              "location": "tests\\steps\\common.step.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4183812499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I click the \"DataManagementMenu\" on the \"homePage\" Page",
+            "match": {
+              "location": "tests\\steps\\search.step.ts:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11901005600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I click the \"CompanyManagementMenu\" on the \"homePage\" Page",
+            "match": {
+              "location": "tests\\steps\\search.step.ts:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 73375099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I click the \"UsersMenu\" on the \"homePage\" Page",
+            "match": {
+              "location": "tests\\steps\\search.step.ts:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 87890399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I export the file to \"unitManagement\" in Excel",
+            "match": {
+              "location": "tests\\steps\\common.step.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3606954898
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 64349699
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 2
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "search-page-actions",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Search page Actions",
+    "tags": [],
+    "uri": "tests\\features\\cms\\searchAction.feature"
+  }
+]

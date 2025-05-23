@@ -14,7 +14,7 @@ Feature: Search Menu Actions
 #     When I navigate to search page
 #     Then I Verify "Search Companies" page is available
 #     And I log out from the CMS application
-
+@smoke
 Scenario: The CMS Company Search page supports searching for Users details.
   
     Given I am logged into the CMS application using "adminUser" username and "adminPassword" password
